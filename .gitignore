@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and API keys
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/secrets.toml
